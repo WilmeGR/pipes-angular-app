@@ -6,7 +6,7 @@ import { interval, tap } from 'rxjs';
   templateUrl: './uncommon-page.component.html',
   styleUrls: ['./uncommon-page.component.css']
 })
-export class UncommonPageComponent implements OnDestroy {
+export class UncommonPageComponent {
 
 
 
@@ -58,9 +58,9 @@ export class UncommonPageComponent implements OnDestroy {
   )
 
 
-  ngOnDestroy(): void {
-    throw new Error('Method not implemented.');
-  }
+  // ngOnDestroy(): void {
+  //   throw new Error('Method not implemented.');
+  // }
 
 
 }
